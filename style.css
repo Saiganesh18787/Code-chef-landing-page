@@ -1,0 +1,381 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.nav{
+    display: flex;
+    height:80px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    box-shadow: 1px 1px 5px gray;
+
+
+    
+}
+.nav img{
+    width: 150px;
+    height:72px;
+    padding:0px 50px;
+    cursor: pointer;
+
+}
+.navbar{
+    justify-content: space-evenly;
+  
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding:30px 30px;
+    
+    width: 70rem;
+    
+}
+.navbar a{
+    padding:10px 20px ;
+    text-decoration: none;
+    color: rgb(156, 152, 152);
+    font-weight: 800;
+    float: right;
+   
+    
+}
+.navbar a:hover{
+    background-color: rgb(233, 240, 243);
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80px;
+
+}
+.profile img{
+    padding: 0%;
+    width:50px;
+    height:50px;
+    border-radius: 30px;
+    border: 1px solid rgb(150, 142, 142);
+    cursor: pointer;
+}
+.profile i{
+    align-items: center;
+}
+.body{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.sprogress h2{
+    font-weight: 400;
+
+}
+.ssprogress{
+    width: 690px;
+    height: 70px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(222, 222, 222);
+    border-radius: 7px;  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.lessons{
+    width:300px;
+    display: table-column;
+    padding: 0px 40px;
+    
+}
+.lessons progress{
+  width: 320px;
+  
+    
+}
+.ssprogress button{
+    border: none;
+    width:100px;
+    height: 50px;
+    background-color:rgb(49, 133, 252);
+    color: white;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size:medium;
+    cursor: pointer;
+    
+}
+.ssprogress img{
+    width:60px;
+}
+
+.courses{
+    width: 656px;
+    height:195px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.title{display: flex;
+margin: 20px 0px;
+width: 656px;
+
+}
+.title h2{
+    margin-right: 425px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.title button{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding:3px 10px;
+    width: 70px;
+    color: rgb(189, 189, 189);
+}
+
+.course{
+    display:inline;
+    border-radius: 4px;
+    width: 188px;
+    height: 130px;
+    padding:20px 20px;
+    margin: 5px;
+    border: 1px solid rgb(209, 209, 209);
+    
+
+}
+
+#edit{
+    color: rgb(186, 186, 186);
+    border: 1px solid rgb(193, 193, 193);
+    width:55px;
+    font-size: small;
+    margin-top: 30px;;
+
+}
+.dailystreak{
+    margin-top: 45px;
+    margin-left: 10%;
+    width:350px;
+    height:230px;
+    border: 0.8px solid rgb(194, 194, 194);
+    padding: 20px 24px;
+    display: inline-block;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.head{
+    display: flex;
+}
+.head h2{
+    font-weight: 400;
+    font-size:x-large;
+    margin-right: 135px;
+    height: 40px;
+}
+.head a{
+    text-decoration: none;
+    justify-content: center;
+    height: 30px;
+    padding-top: 5px;
+    
+}
+.special{
+    display:inline-table;
+    margin: 20px;
+    width: 300px;
+}
+.elements1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.elements2 {
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    
+}
+.days{
+    display: flex;
+    width:350px;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    font-size: medium;
+}
+.day{
+    display: inline;
+}
+.day7{
+    display: inline;
+    height: 65px;
+    width:43px;
+    background-color: rgb(60, 90, 100);
+    border-radius: 20px;
+    color: white;
+}
+.image{
+    border-radius: 20px;
+    background-color: rgb(220, 220, 220);
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+}
+
+.image7{
+    border-radius: 20px;
+    background-color: rgb(220, 220, 220);
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+}
+.image7 img{
+    width:32px;
+    height:32px;
+}
+.notifications{
+    margin-left: 10%;
+    margin-top:25px;
+    border: 0.5px solid rgb(194, 194, 194);
+    width:350px;
+    height:70px;
+    border-radius:8px ;
+    padding: 20px 24px;
+}
+.discuss{
+    display: flex;
+    align-items: center;
+}
+.discuss a{
+    text-decoration: none;
+}
+.discuss h2{
+    font-weight: 400;
+    margin-right: 70px;
+}
+.notifications p{
+    font-weight: 100;
+    padding: 20px 0px;
+    color: rgb(180, 180, 180);
+}
+.access{
+    width:656px;
+    height:153px;
+    margin-top:15px;
+    display: flex;
+}
+
+.yourself{
+    width:296px;
+    height:128px;
+    
+    margin-left: 10px;
+    padding: 16px 16px 16px 24px;
+    border-radius: 10px;
+    background-image:linear-gradient(to right,#4e54c8,#8c91f9) ;
+    
+}
+.yourtitle {
+    color: white;
+    font-size: larger;
+}
+#h2{
+    margin-top:55px;
+}
+.checkout{
+    display:flex;
+    margin-top: 60px;
+}
+.checkout button{
+    background-color:#ffe379 ;
+    border: none;
+    cursor: pointer;
+    width:90px;
+    border-radius: 5px;
+    font-size: medium;
+}
+.today{
+    color: white;
+    margin-right: 50px;
+}
+.today h4{
+    font-weight: 100;
+    color:#ddf9ff;
+}
+.today p{
+font-size: smaller;
+}
+.yourself1{
+    width:296px;
+    height:128px;
+    margin-left: 10px;
+    padding: 16px 16px 16px 24px;
+    border-radius: 10px;
+    border: 0.8px solid rgb(194, 194, 194);
+}
+.yourtitle1 {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+.checkout1 button{
+    background-color:#455a64;
+    border: none;
+    cursor: pointer;
+    width:120px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: medium;
+    color: #fbfbfb;
+}
+.today1 h4{
+    font-weight: 100;
+    color:#4490fc;
+}
+.today1 p{
+font-size: smaller;
+color: #848484;
+}
+.checkout1{
+    display:flex;
+    margin-top: 60px;
+}
+.today1{
+    color: white;
+    margin-right: 65px;
+}
+.addition{
+    margin-top:30px ;
+}
+.addition a{
+    text-decoration: none;
+}
+.tools{
+    width:100%;
+    height:233px;
+    background-color: #2e3444;
+    padding: 30px 120px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.tools h2{
+    
+    color:#a5a7ae ;
+    font-size: large;
+    font-weight:400 ;
+    margin-bottom: 15px;
+}
+.list1 li{
+    list-style-type: none;
+    padding:10px 0px;
+    color:#cdced2;
+}
+.listmenu{
+ display: flex;
+}
